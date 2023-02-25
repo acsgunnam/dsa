@@ -52,6 +52,7 @@ namespace dsa.Intervals
             };
 
             int[] newInterval = { 4, 8 };
+
             var result = Insert(intervals, newInterval);
 
             int[][] Output = new int[3][] { 
